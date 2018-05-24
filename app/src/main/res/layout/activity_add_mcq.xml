@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMcqActivity"
+    android:background="@color/backgrounColor"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcqTitleTxt"
+        android:text="@string/mcq"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moduleNameTxt"
+        android:layout_below="@id/mcqTitleTxt"
+        android:text="@string/module_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/moduleNameEdTxt"
+        android:layout_toRightOf="@id/moduleNameTxt"
+        android:layout_below="@id/mcqTitleTxt"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moduleCodeTxt"
+        android:layout_below="@id/moduleNameTxt"
+        android:text="@string/module_code"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/moduleCodeEdTxt"
+        android:layout_toRightOf="@id/moduleNameTxt"
+        android:layout_below="@id/moduleNameEdTxt"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcqQuestionNumberTxt"
+        android:layout_below="@+id/moduleCodeTxt"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="22dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        android:text="@string/mcq_question_number"/>
+
+    <EditText
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcqQuestionNumberTxtEd"
+        android:layout_toRightOf="@id/mcqQuestionNumberTxt"
+        android:layout_below="@id/moduleCodeEdTxt"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionTxt"
+        android:layout_below="@id/mcqQuestionNumberTxt"
+        android:text="@string/mcq_question"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/questionEdTxt"
+        android:layout_below="@+id/questionTxt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerTxt1"
+        android:layout_below="@+id/questionEdTxt"
+        android:text="@string/mcq_answers1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerEdTxt1"
+        android:layout_toRightOf="@id/answerTxt1"
+        android:layout_below="@id/questionEdTxt"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerTxt2"
+        android:layout_below="@+id/answerTxt1"
+        android:text="@string/mcq_answers2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerEdTxt2"
+        android:layout_toRightOf="@id/answerTxt2"
+        android:layout_below="@id/answerEdTxt1"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerTxt3"
+        android:layout_below="@+id/answerTxt2"
+        android:text="@string/mcq_answers3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerEdTxt3"
+        android:layout_toRightOf="@id/answerTxt2"
+        android:layout_below="@id/answerEdTxt2"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/correctAnswerTxt"
+        android:layout_below="@+id/answerTxt3"
+        android:text="@string/correct_answers"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/correctAnswerEdTxt"
+        android:layout_toRightOf="@id/answerTxt2"
+        android:layout_below="@id/answerEdTxt3"
+        android:layout_marginLeft="40dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancleBtn"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/correctAnswerTxt"
+        android:text="@string/cancel"
+        android:layout_marginLeft="15dp"
+        android:background="@color/colorGray"
+        android:textColor="@color/colorBlack"
+        android:onClick="onClickCancle"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitBtn"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/correctAnswerEdTxt"
+        android:text="@string/submit"
+        android:background="@color/colorGray"
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/colorBlack"
+        android:onClick="onClickSumit"/>
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/progressBar"-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_gravity="center|bottom"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:visibility="gone"-->
+        <!--android:textColor="@color/colorBlack"/>-->
+
+    <!--</ScrollView>-->
+
+    </RelativeLayout>
+
+</RelativeLayout>

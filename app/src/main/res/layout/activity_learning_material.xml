@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgrounColor"
+    tools:context=".LearningMaterialActivity">
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:id="@+id/currentUserTxt"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/currentUserTxt"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/singoutBtn"
+        android:text="@string/logout"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameTxt"
+        android:layout_below="@+id/currentUserTxt"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/codeTxt"
+        android:layout_below="@+id/nameTxt"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecturerTxt"
+        android:textSize="16sp"
+        android:layout_below="@+id/codeTxt"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcqTestTxt"
+        android:layout_marginTop="20dp"
+        android:text="@string/mcq_test"
+        android:layout_below="@id/lecturerTxt"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorGray"
+        android:gravity="center"
+        android:onClick="onClickTestMcq"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/learningVideoTxt"
+        android:layout_marginTop="20dp"
+        android:text="@string/learning_video"
+        android:layout_below="@id/mcqTestTxt"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorGray"
+        android:gravity="center"
+        android:onClick="onClickVedio"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/learningDocumentTxt"
+        android:layout_marginTop="20dp"
+        android:text="@string/learning_document"
+        android:layout_below="@id/learningVideoTxt"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorGray"
+        android:gravity="center"
+        android:onClick="onClickDocument"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ExamPreparationTxt"
+        android:layout_marginTop="20dp"
+        android:text="@string/exam_paper"
+        android:layout_below="@id/learningDocumentTxt"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorGray"
+        android:gravity="center"
+        android:onClick="onClickExamPaper"/>
+
+
+</RelativeLayout>

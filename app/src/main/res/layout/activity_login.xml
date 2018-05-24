@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgrounColor"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameTxt"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"
+        android:text="@string/name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:id="@+id/email"
+            android:layout_below="@+id/nameTxt"
+            android:layout_marginTop="78dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameEdTxt"
+        android:layout_below="@id/nameTxt"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/emal"
+            android:text="@string/password"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@+id/usernameEdTxt"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordEdTxt"
+        android:layout_below="@+id/emal"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitBtn"
+        android:layout_below="@id/passwordEdTxt"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/submit"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/usernameEdTxt"
+        android:layout_gravity="center|bottom"
+        android:layout_marginStart="165dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="165dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

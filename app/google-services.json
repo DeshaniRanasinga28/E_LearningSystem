@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "875402858414",
+    "firebase_url": "https://elms-811d7.firebaseio.com",
+    "project_id": "elms-811d7",
+    "storage_bucket": "elms-811d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875402858414:android:c303b02bb126a665",
+        "android_client_info": {
+          "package_name": "com.elearning.elearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875402858414-lvkucd73p9ii114cpbamfh2h3ia4158g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elearning.elearning",
+            "certificate_hash": "9f08875aa8551814d1c28312382ab806a039a86e"
+          }
+        },
+        {
+          "client_id": "875402858414-o0u29slck2f0l1bvo5is1gfup6d9jgi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhqu1HwxPs7sEfSHuGfE0DJ6CUouPZ2aw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875402858414-o0u29slck2f0l1bvo5is1gfup6d9jgi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

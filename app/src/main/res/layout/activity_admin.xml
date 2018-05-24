@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgrounColor"
+    tools:context=".AdminActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailTxt"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2sp"
+        android:textColor="@color/colorBlack"
+        android:textSize="14sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:id="@+id/logoutBtn"
+        android:text="@string/logout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorGray"
+        android:onClick="onLogout"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/userRegTxt"
+        android:layout_marginTop="50dp"
+        android:text="@string/user_reg"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorGray"
+        android:gravity="center"
+        android:onClick="onUserRegistratin"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:id="@+id/addModules"-->
+        <!--android:layout_below="@id/userRegTxt"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:text="@string/add_modules"-->
+        <!--android:textSize="24sp"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:background="@color/colorGray"-->
+        <!--android:gravity="center"-->
+        <!--android:onClick="onAddModule"/>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/mcq"
+        android:layout_below="@id/userRegTxt"
+        android:layout_marginTop="5dp"
+        android:text="@string/mcq"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorGray"
+        android:gravity="center"
+        android:onClick="onClickMcq"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/learning_video"
+        android:layout_below="@id/mcq"
+        android:layout_marginTop="5dp"
+        android:text="@string/upload_learning_video"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorGray"
+        android:gravity="center"
+        android:onClick="onClickVideoUpload"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/particularLearningMaterialTxt"
+        android:text="@string/upload_learning_documents"
+        android:layout_below="@+id/learning_video"
+        android:layout_marginTop="5dp"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorGray"
+        android:gravity="center"
+        android:onClick="onClickDocUpload"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/uploadLearningDocTxt"
+        android:layout_below="@id/particularLearningMaterialTxt"
+        android:layout_marginTop="5dp"
+        android:text="@string/upload_exam_preparation"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorGray"
+        android:gravity="center"
+        android:onClick="onClickExUpload"/>
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:id="@+id/particular_learning_material"-->
+    <!--android:layout_below="@id/learning_video"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:text="@string/particular_learning_material"-->
+    <!--android:textSize="24sp"-->
+    <!--android:textColor="@color/colorBlack"-->
+    <!--android:background="@color/colorGray"-->
+    <!--android:gravity="center"/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:id="@+id/learning_documents"-->
+    <!--android:layout_below="@id/particular_learning_material"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:text="@string/learning_documents"-->
+    <!--android:textSize="24sp"-->
+    <!--android:textColor="@color/colorBlack"-->
+    <!--android:background="@color/colorGray"-->
+    <!--android:gravity="center"/>-->
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Elearning</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="name">E - Learning</string>
+    <string name="username">email</string>
+    <string name="password">password</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_module">ModuleActivity</string>
+
+    <string name="logout">Logout</string>
+    <string name="user_reg">User Registration</string>
+    <string name="cancel">cancel</string>
+    <string name="conpassword">confirm password</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="mcq">MCQ</string>
+    <string name="add_modules">Create Modules</string>
+    <string name="upload_learning_video">Upload Learning Video </string>
+    <string name="particular_learning_material">Particular Learning Material</string>
+    <string name="upload_learning_documents">Upload Learning Documents</string>
+    <string name="upload_exam_preparation">Upload Exam Preparation</string>
+    <string name="Exam_Preparation">Exam Preparation</string>
+
+
+    <string name="error_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+    <string name="addModule_title">Add New Module</string>
+    <string name="module_name">Module Name</string>
+    <string name="module_code">Module Code</string>
+    <string name="module_LectureName">Lecturer Name</string>
+    <string name="module_description">Module Description</string>
+    <string name="save">Save</string>
+
+    <string name="mcq_question_number">Question Number</string>
+    <string name="mcq_question">Question</string>
+    <string name="mcq_answers1">Answers 01</string>
+    <string name="mcq_answers2">Answers 02</string>
+    <string name="mcq_answers3">Answers 03</string>
+    <string name="correct_answers">Correct Answers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="mcq_test">MCQ Test</string>
+    <string name="learning_video">Learning video</string>
+    <string name="learning_document">Learning Document</string>
+    <string name="exam_paper">Exam Paper</string>
+
+    <string name="close">close</string>
+
+
+</resources>

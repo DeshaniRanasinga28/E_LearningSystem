@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgrounColor"
+    tools:context=".AddVideoActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/enterName"
+            android:textColor="@color/colorBlack"
+            android:text="Enter Module Name"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterName"
+        android:id="@+id/moduleName"
+        android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/enterKey"
+            android:layout_below="@+id/moduleName"
+            android:textColor="@color/colorBlack"
+            android:text="Enter Module Enroll Key"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enrollKeyEdTxt"
+        android:layout_below="@+id/enterKey"
+        android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter a name for your file"
+            android:id="@+id/fileName"
+            android:layout_below="@+id/enrollKeyEdTxt"
+            android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/editTextFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fileName"
+        android:textColor="@color/colorBlack"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/link"
+            android:layout_below="@+id/editTextFileName"
+            android:textColor="@color/colorBlack"
+            android:text="Enter the Video Link"/>
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkEdtxt"
+        android:layout_below="@+id/link"
+            android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/buttonUploadVideoLink"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="23dp"
+        android:onClick="onClickSumit"
+        android:text="Upload"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/buttonUploadVideoLink"
+        android:layout_marginEnd="26dp"
+        android:onClick="onClickCancle"
+        android:text="@string/cancel"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp" />
+
+
+</RelativeLayout>

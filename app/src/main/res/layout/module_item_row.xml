@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgrounColor">
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/cradView">-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/moduleNameTxt"
+            android:textColor="@color/colorBlack"
+            android:text="Android"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/moduleCodeTxt"
+            android:textColor="@color/colorBlack"
+            android:text="CB0078"
+            android:layout_below="@+id/moduleNameTxt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/leecturerNameTxt"
+            android:textColor="@color/colorBlack"
+            android:text="CB0078"
+            android:layout_below="@+id/moduleCodeTxt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:textSize="12sp"/>
+
+    <!--</android.support.v7.widget.CardView>-->
+
+</RelativeLayout>
